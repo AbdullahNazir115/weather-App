@@ -1,0 +1,203 @@
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.percentage{
+margin: 0 4px;
+}
+
+.p{
+    margin: 20px 0;
+}
+.main-div{
+    display: flex;
+    flex-direction: row;
+}
+.current-Zone{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 60px;
+    /* width: 28%; */
+}
+.current-Zone h1{
+    font-size: 25px;
+}
+.cards {
+        
+    width: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: linear-gradient(135deg, #00feba, #5b548a);
+
+    text-align: center;
+    margin: 7px auto;
+    border-radius: 15px;
+    height: 750px;
+}
+.all-control{
+    transform: translateY(-61px);
+}
+.left{
+    /* margin: 45px 0; */
+}
+  .cards h1{
+    /* width: 100%; */
+    color: white;
+}
+.centerd h1{
+        width: 100%;
+        color: ;
+        height: 63vh;
+        font-size: 21px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+}
+.current-Zone h1{
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin: 20px 0;
+}
+.temperature-icon h1{
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 85px;
+}
+.search input{
+    height: 41px;
+
+    width: 244px;
+    border-radius: 30px;
+    border: 0;
+outline: none;
+padding: 0 20px;
+font-family: 'Open Sans', sans-serif;
+}
+.temperature-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+}
+.feels-like .top{
+    margin: 0 15px;
+}
+.temperature-icon p h1{
+    /* width: 1%; */
+    height: 100%;
+
+}
+.temperature-icon p{
+    height: 9.5vh;
+  color: white;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 24px 0;
+}
+.search{
+    display: flex;
+    align-items: center;
+    height: 82px;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 47;
+  position: relative;
+}
+.circle{
+    height: 40px;
+  background: white;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  border-radius: 71px;
+  margin-left: 24px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.desc{
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.both {
+    margin: 22px 0px;
+  }
+  .both p{
+    margin: 20px 0px;
+  }
+
+.bottom h1{
+    font-size: 20px;
+}
+.pairs {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    color: white;
+    /* height: 10vh; */
+  /* flex-direction: column; */
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+@media screen and (max-width:570px) {
+    
+   .cards{
+        width: 90%;
+        min-height: 850px;
+    }
+    .search input{
+        width: 60%;
+    }
+    .circle{
+        margin-left: 10px;
+    }
+
+ .pairs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+}
+.pair{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    color: initial;
+}
+.bottom p{
+    font-size: 14px;
+    /* margin: 20px 0; */
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+}
+.top p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.top svg{
+    margin: 0 10px;
+}
